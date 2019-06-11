@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM broken
 RUN apt-get update
 RUN apt-get install python
 COPY hello.py /
